@@ -7,6 +7,7 @@ pipeline {
                 sh '''rm -r -f "/root/lesson6"
                 rm -r -f "/root/test"'''
             }
+        }
         stage('create_text_file') {
             steps {
                 sh '''mkdir "/root/lesson6"
