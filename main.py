@@ -3,4 +3,4 @@ def click():
 
 def welcome():
 	print("New Screen")
-test2
+test3
